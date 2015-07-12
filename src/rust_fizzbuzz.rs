@@ -1,11 +1,3 @@
-use std::env;
-
-fn main() {
-    // print from arguments
-    let args: Vec<String> = env::args().collect();
-    print_fizzbuzz(args[1].parse::<i32>().unwrap());
-}
-
 pub fn fizzbuzz(n: i32) -> String {
     match (n % 3, n % 5) {
         (0, 0) => "fizzbuzz".to_string(),
