@@ -6,3 +6,9 @@ pub fn fizzbuzz(n: i32) -> String{
         _               => n.to_string()
     }
 }
+
+pub fn print_fizzbuzz(n: i32) {
+    for x in 0..n {
+        println!("{}", fizzbuzz(x));
+    }
+}
