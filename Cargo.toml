@@ -2,3 +2,8 @@
 name = "RustFizzBuzz"
 version = "0.1.0"
 authors = ["proshunsuke <shunsuke0901@gmail.com>"]
+
+[[bin]]
+name = "fizzbuzz"
+path = "src/rust_fizzbuzz.rs"
+
