@@ -1,3 +1,6 @@
 pub fn fizzbuzz(n: i32) -> String{
-    return n.to_string();
+    match n {
+        n if n % 3 == 0 => "fizz".to_string(),
+        _               => n.to_string()
+    }
 }
