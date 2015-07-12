@@ -1,7 +1,7 @@
 use std::env;
 
 fn main() {
-    // 引数から出力
+    // print from arguments
     let args: Vec<String> = env::args().collect();
     print_fizzbuzz(args[1].parse::<i32>().unwrap());
 }
