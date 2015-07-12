@@ -8,6 +8,6 @@ fn can_test() {
 }
 
 #[test]
-fn print_1is_1() {
+fn _1is_1() {
     assert_eq!("1", rust_fizzbuzz::fizzbuzz(1));
 }
