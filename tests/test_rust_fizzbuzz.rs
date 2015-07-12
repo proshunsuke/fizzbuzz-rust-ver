@@ -19,5 +19,10 @@ fn _3is_fizz() {
 
 #[test]
 fn _5is_buzz() {
-    assert_eq!("fizz", rust_fizzbuzz::fizzbuzz(3));
+    assert_eq!("buzz", rust_fizzbuzz::fizzbuzz(5));
+}
+
+#[test]
+fn _15is_fizzbuzz() {
+    assert_eq!("fizzbuzz", rust_fizzbuzz::fizzbuzz(15));
 }
